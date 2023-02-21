@@ -1,0 +1,26 @@
+body{
+    background-color: #24353f;
+}
+header h1{
+    color: #1bb1c8;
+}
+input::placeholder{
+    color: white !important;
+}
+.container-md{
+    background-color: #2e434f;
+    box-shadow:30px 35px 35px 10px black ;
+}
+.container-md p a{
+    color: white;
+}
+.container-md button{
+background-color: transparent;
+border-color: #189bb0;
+color: #1bb1c8;
+transition: all .5s;
+}
+.container-md button:hover{
+    background-color: #189bb0;
+    color: white;
+}

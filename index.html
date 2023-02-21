@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>login</title>
+</head>
+
+<body>
+    <section class="p-5 d-block " id="loginSys">
+        <div class="container-md rounded-3 w-75">
+            <header>
+                <h1 class="text-center p-5">Smart Login System</h1>
+            </header>
+            <br>
+            <div class="loginForm p-4 d-flex flex-column align-items-center justify-content-center">
+                <input id="Email" type="text" class="text-white form-control bg-transparent shadow-none" placeholder="Enter your Email" required>
+                <br>
+                <input id="Password" type="password" class="text-white form-control bg-transparent shadow-none " placeholder="Enter your Password" required>
+                <br>
+                <div class="wrong  text-danger d-none">Wrong Inputs please check your Email and Pass again !</div>
+                <div class="emptyInput  text-danger d-none">All inputs required!</div>
+                <button type="submit" class="login w-100 rounded-3 p-2 m-3">Login</button>
+                <p class="text-white">Don’t have an account? <a href="#" id="signLink">Sign Up</a></p>
+            </div>
+        </div>
+    </section>
+
+
+
+ <section class="p-5 d-none" id="registration">
+        <div class="container-md rounded-3 w-75">
+            <header>
+                <h1 class="text-center p-5">Smart Login System</h1>
+            </header>
+            <br>
+            <div class="loginForm p-4 d-flex flex-column align-items-center justify-content-center">
+                <input id="Name" type="text" class="text-white form-control bg-transparent shadow-none" placeholder="Enter your Name" required>
+                <br>
+                <input id="Email" type="text" class="text-white form-control bg-transparent shadow-none" placeholder="Enter your Email" required>
+                <br>
+                <input id="Password" type="password" class="text-white form-control bg-transparent shadow-none " placeholder="Enter your Password" required>
+                <br>
+                <div class="emptyInput  text-danger d-none">All inputs required!</div>
+
+                <button type="submit" class="signUp w-100 rounded-3 p-2 m-3">Sign Up</button>
+                <p class="text-white">Don’t have an account? <a href="#" id="logLink">Login</a></p>
+            </div>
+        </div>
+    </section>
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/login.js"></script>
+</body>
+
+</html>
